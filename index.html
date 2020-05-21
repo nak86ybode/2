@@ -7,6 +7,21 @@
     <title>Купить Уротрин недорого. Цены, отзывы. Закажите Уротрин сейчас!</title>
     <link media="all" href="css/index.css" type="text/css" rel="stylesheet">
     <link href="favicon.ico" rel="icon">
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+ var hvost = window.location.search.substring(1);
+ 
+ var elements = document.getElementsByTagName('a');
+
+ for (var i = 0; i < elements.length; i++) {
+  var newHref = elements[i].href;
+  if (newHref.indexOf("#")!=-1) continue;
+  if (newHref.indexOf("?")==-1) newHref += "?";
+  else newHref += "&#038;";
+  if (hvost!="") elements[i].href = newHref + hvost;
+ }
+});
+    </script>
 </head>
 <body>
 <div class="container">
